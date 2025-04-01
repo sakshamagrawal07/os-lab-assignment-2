@@ -244,7 +244,7 @@ Processes readProcessesFromFile(const std::string& filename) {
 }
 
 int main() {
-  Processes procs = readProcessesFromFile("/uploads/processes.txt");
+  Processes procs = readProcessesFromFile("processes.txt");
 
   Device d;
   d.init(procs);
